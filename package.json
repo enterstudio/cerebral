@@ -15,7 +15,9 @@
     "coverage": "lerna run coverage --ignore @cerebral/monorepo",
     "postcoverage": "istanbul-combine -d coverage -p summary -r lcov -r html packages/**/coverage/*.json babel/**/coverage/*.json",
     "coverage:upload": "cat ./coverage/lcov.info | coveralls",
-    "deploy": "cd website/publisher && npm run ci"
+    "deploy": "cd website/publisher && npm run ci",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": {
     "babel": "./node_modules/.bin/babel",
@@ -39,7 +41,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-register": "^6.23.0",
     "commitizen": "^2.9.6",
-    "coveralls": "^2.12.0",
+    "coveralls": "^3.0.0",
     "cross-env": "^3.2.3",
     "cz-customizable": "^4.0.0",
     "cz-customizable-ghooks": "^1.5.0",
@@ -56,9 +58,10 @@
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-scripts": "0.9.4",
+    "react-scripts": "1.1.1",
     "shx": "^0.2.2",
-    "standard": "^8.6.0"
+    "standard": "^8.6.0",
+    "snyk": "^1.83.0"
   },
   "config": {
     "commitizen": {
@@ -74,5 +77,6 @@
       "**/node_modules/**",
       "**/build/"
     ]
-  }
+  },
+  "snyk": true
 }
