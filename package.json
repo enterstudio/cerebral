@@ -55,7 +55,7 @@
     "nyc": "^10.1.2",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.0.1",
     "react-scripts": "0.9.4",
     "shx": "^0.2.2",
     "standard": "^8.6.0"
