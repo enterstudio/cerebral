@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - react-scripts > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-12T03:17:13.438Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-12T03:17:13.438Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-12T03:17:13.438Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-12T03:17:13.438Z'
+  'npm:minimatch:20160620':
+    - istanbul-combine > istanbul > fileset > minimatch:
+        patched: '2019-05-12T03:17:13.438Z'
