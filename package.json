@@ -52,7 +52,7 @@
     "mocha": "^3.2.0",
     "mocha-jsdom": "^1.1.0",
     "npm-run-all": "^4.0.2",
-    "nyc": "^10.1.2",
+    "nyc": "^14.0.0",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
