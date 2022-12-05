@@ -43,7 +43,7 @@
     "cross-env": "^3.2.3",
     "cz-customizable": "^4.0.0",
     "cz-customizable-ghooks": "^1.5.0",
-    "gh-pages": "^0.12.0",
+    "gh-pages": "^1.0.0",
     "husky": "^0.13.2",
     "istanbul-combine": "^0.3.0",
     "jest": "^18.1.0",
