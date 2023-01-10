@@ -49,16 +49,16 @@
     "jest": "^18.1.0",
     "jsdom": "^9.9.1",
     "lerna": "2.0.0-rc.1",
-    "mocha": "^3.2.0",
+    "mocha": "^4.0.0",
     "mocha-jsdom": "^1.1.0",
     "npm-run-all": "^4.0.2",
     "nyc": "^10.1.2",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-scripts": "0.9.4",
+    "react-scripts": "2.1.2",
     "shx": "^0.2.2",
-    "standard": "^8.6.0"
+    "standard": "^11.0.0"
   },
   "config": {
     "commitizen": {
