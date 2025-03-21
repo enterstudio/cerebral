@@ -57,7 +57,7 @@
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-scripts": "0.9.4",
-    "shx": "^0.2.2",
+    "shx": "^0.4.0",
     "standard": "^8.6.0"
   },
   "config": {
